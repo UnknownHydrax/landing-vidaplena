@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="VidaPlena SpA - Servicios de bienestar y salud integral">
+    <title>VidaPlena SpA - Servicios de Bienestar y Salud Integral</title>
+    <link rel="stylesheet" href="css/stylex.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!---- HEADER ---->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h2>Vida<span>Plena</span></h2>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero">Inicio</a></li>
+                <li><a href="#beneficios">Servicios</a></li>
+                <li><a href="#testimonios">Testimonios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- HERO -->
+     <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1>Tu camino hacía el bienestar integral comienza hoy</h1>
+            <p>En VidaPlena te acompañamos con servicios de salud, nutrición y mindfulness para transformar tu vida</p>
+            <a href="#contacto" class="btn-primary">Agenda tu consulta</a>
+        </div>
+     </section>
+     <!-- BENEFICIOS -->
+      <section id="beneficios" class="beneficios">
+        <div class="contenedor">
+            <h2>Nuestros Servicios</h2>
+            <p class="subtitulo">Programas diseñados para transformar tu bienestar</p>
+            <div class="tarjetas">
+                <article class="tarjeta">
+                    <img src="img/foto 1.jpg" alt="Servicio de nutrición saludable">
+                    <h3>Nutrición Saludable</h3>
+                    <p>Planes alimenticios personalizados diseñados por nutricionistas certificados</p>
+                </article>
+                <article class="tarjeta">
+                    <img src="img/Yoga.jpg" alt="Clases de Yoga">
+                    <h3>Clase de yoga</h3>
+                    <p>Sesiones guiadas de yoga y meditación</p>
+                </article>
+                <article class="tarjeta">
+                    <img src="img/psicologo.jpg" alt="Apoyo psicológico profesional">
+                    <h3>Apoyo Psicológico</h3>
+                    <p>Acompañamiento profesional para trabajar tu bienestar emocional</p>
+                </article>
+
+            </div>
+        </div>
+      </section>
+      <!-- Testimonios -->
+      <section id="testimonios" class="testimonios">
+        <div class="contenedor">
+            <h2>Lo que dicen nuestros clientes</h2>
+            <p class="subtitulo">Experiencias reales de personas que transformaron su vida</p>
+            <div class="testimonios-grid">
+                <article class="testimonio">
+                    <p class="testimonio-texto">
+                        Gracias a vidaPlena logré cambiar mis hábitos alimenticios
+                    </p>
+                    <div class="testimonio-autor">
+                        <div class="autor_info">
+                            <h3>Carolina méndez</h3>
+                            <span>Programa de Nutrición</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="testimonio">
+                    <p class="testimonio-texto">"Las sesiones de yoga cambiaron mi vida. LLegué con mucho estrés laboral y no se me quita porque la yoga no sirve.</p>
+                    <div class="testimonio-autor">
+                        <div class="autor-info">
+                            <h3>Rodrigo Fuentes</h3>
+                            <span>Programa de Yoga para gorditos tristes</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+      </section>
+      <!-- Contacto -->
+       <section id="contacto" class="contacto">
+        <div class="contenedor">
+            <h2>Contáctanos</h2>
+            <p class="subtitulo">Estamos aquí para ayudarte a comenzar tu camino al bienestar y plenitud.</p>
+
+            <form class="formulario" action="#" method="POST">
+                <div class="campo">
+                    <label for="nombre">Nombre Completo</label>
+                    <input 
+                        type="text"
+                        id="nombre"
+                        name="nombre"
+                        placeholder="jJ: Clara Muñoz"
+                        required>
+                </div>
+
+                <div class="campo">
+                    <label for="email">Correo electrónico</label>
+                    <input 
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Ej: Clarita@email.com"
+                        required>
+                </div>
+
+                <div class="campo">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea
+                        id="mensaje"
+                        name="mensaje"
+                        rows="5"
+                        placeholder="Escribe tu consulta aquí..."
+                        required></textarea>
+                </div>
+
+                <button type="submit" class="btn-primary">Enviar mensaje</button>
+            </form>
+        </div>
+       </section>
+       <!-- FOOTER -->
+        <footer>
+            <div class="contenedor footer-grid">
+
+                <div class="footer-marca">
+                    <h2>Vida<span> Plena</span></h2>
+                    <p>Servicios de bienestar y salud integral para transformar tu vida</p>
+                </div>
+                <div class="footer-contacto">
+                    <h3>Contacto</h3>
+                    <p>Av. Providencia 1234, Santiago</p>
+                    <p>Contacto@vidaplena.cl</p>
+                    <p>+56 9 1234 5678</p>
+                </div>
+                <div class="footer-redes">
+                    <h3>Síguenos</h3>
+                    <ul>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">YouTube</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-copy">
+                <p>&copy; 2026 VidaPlena SpA. Todos los derechos reservados</p>
+            </div>
+        </footer>
+</body>
+</html>
